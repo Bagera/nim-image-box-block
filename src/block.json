@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "nim/image-box-block",
+	"version": "0.1.0",
+	"title": "Image Box",
+	"category": "media",
+	"icon": "smiley",
+	"description": "A box with an image, title and text",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "nim-image-box-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		}
+	}
+}

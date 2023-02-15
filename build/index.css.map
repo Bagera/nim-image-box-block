@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AACA;EACC;EACA;EACA;EACA;AAAD,C","sources":["webpack://nim-image-box-block/./src/editor.scss"],"sourcesContent":["\n.nim-image-box-editor {\n\tborder: 1px solid #f8f8f8;\n\tmargin: -1em;\n\tpadding: 1em;\n\tleft: -1em;\n}\n"],"names":[],"sourceRoot":""}
